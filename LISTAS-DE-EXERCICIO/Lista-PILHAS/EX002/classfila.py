@@ -7,9 +7,9 @@ class Fila:
         self.__dados.append(new_value)
 
     def rmv(self):
-        self.__dados.pop(0)
+        return(self.__dados.pop(0))
 
-    def getPilha(self):
+    def getFila(self):
         return(self.__dados)
 
     def tamPilha(self):

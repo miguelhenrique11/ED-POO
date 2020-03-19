@@ -9,6 +9,10 @@ class Pilha:
     def pop(self):
         return (self.__dados.pop())
 
+    def popAll(self):
+        while(len(self.__dados)!=0):
+            self.__dados.pop()
+
     def showStack(self):
         return(self.__dados)
 
